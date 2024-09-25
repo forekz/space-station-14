@@ -1,0 +1,11 @@
+- type: gamePreset
+  id: BaseDm
+  alias:
+  - baseDm
+  - Dm
+  name: Баттл Граунд
+  showInVote: True
+  description: Сражайся за место лучшего игрока!
+  rules:
+  - BasicStationEventScheduler
+  - BasicRoundstartVariation
